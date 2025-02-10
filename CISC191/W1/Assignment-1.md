@@ -44,3 +44,8 @@
 '''
 
 ![Assignment 1 drawio (2)](https://github.com/user-attachments/assets/7c561f4b-5950-442b-8a3b-980b1c552b64)
+
+
+I chose bubble sort because it is easy to understand and implement. The simplicity of using bubble sort made it a good choice for me.
+
+I dealt with a couple challenges during this assignment. One was ensuring that the input was handled correctly, reading the exact number of integers. Debugging the sorting logic was another challenge, and formatting the output without any commas was hard too.
