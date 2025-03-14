@@ -1,6 +1,7 @@
 ## Code
 
 ``Java
+
 public class Course {
     // Course number and title
     private String courseNumber;
@@ -32,6 +33,7 @@ public class Course {
 ``
 
 ``Java
+
 public class OfferedCourse extends Course {
     // Additional offered course details
     private String instructorName;
@@ -76,6 +78,7 @@ public class OfferedCourse extends Course {
 ``
 
 ``Java
+
 public class DerivedClasses {
     public static void main(String[] args) {
         // Create 1st course using Course class
