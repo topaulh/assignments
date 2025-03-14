@@ -1,6 +1,6 @@
 ## Code
 
-``public class Course {
+`` public class Course {
     // Course number and title
     private String courseNumber;
     private String courseTitle;
