@@ -22,7 +22,6 @@ public class DistanceConverter extends JFrame implements ActionListener {
         milesLabel.setBounds(10, 20, 120, 25);
         add(milesLabel);
 
-        // Use NumberFormat to only allow numbers
         NumberFormat numberFormat = NumberFormat.getNumberInstance();
         milesField = new JFormattedTextField(numberFormat);
         milesField.setBounds(140, 20, 150, 25);
@@ -59,7 +58,7 @@ public class DistanceConverter extends JFrame implements ActionListener {
             mLabel.setText(String.format("Meters: %.2f m", meters));
             ftLabel.setText(String.format("Feet: %.2f ft", feet));
         } catch (NumberFormatException ex) {
-            JOptionPane.showMessageDialog(this, "Invalid input! Please enter a number.", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Invalid input! Please enter a number", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 
