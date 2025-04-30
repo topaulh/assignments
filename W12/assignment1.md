@@ -1,6 +1,6 @@
 ## Code
 
-``Java
+```Java
 import java.util.Scanner;
 
 public class InsertionSort {
@@ -51,7 +51,7 @@ public class InsertionSort {
         System.out.println();
     }
 }
-``
+```
 
 ![flowchart2131](https://github.com/user-attachments/assets/3e5cfc0a-dabe-46c0-a267-cc4484b24165)
 
